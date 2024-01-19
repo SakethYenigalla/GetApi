@@ -7,13 +7,13 @@ import org.springframework.web.reactive.function.client.WebClient;
 
 @SpringBootApplication
 public class GetApiApplication {
-@Bean
-	public WebClient.Builder getWebClient(){
-	return WebClient.builder();
-	}
+    @Bean
+    public WebClient.Builder getWebClient() {
+        return WebClient.builder();
+    }
 
-	public static void main(String[] args) {
-		SpringApplication.run(GetApiApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(GetApiApplication.class, args);
+    }
 
 }
